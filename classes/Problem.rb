@@ -7,9 +7,10 @@ class Problem
     @answer = a + b
   end
 
+  def ask_question()
+    puts "What is the sum of #{a} + #{b}"
+  end
+
 end
 
-p = Problem.new()
-puts p.a
-puts p.b
-puts p.answer
+
